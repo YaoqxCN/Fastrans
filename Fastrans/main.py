@@ -1,9 +1,9 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import qt_material
-import translate
 import sys
 
 from ui import Ui_Form
+from translate import Bing
 
 
 # Main window class
@@ -15,12 +15,9 @@ class Win(QMainWindow, Ui_Form):
 
     # Translate function
     def translate(self):
-        sentence = self.lineEdit.text()
-        print(sentence)
-        translator = translate.Translator(to_lang="zh")
-        result = translator.translate(sentence)
-        self.textEdit.setText(result)
-        print(result)
+        source = self.lineEdit.text()
+        translation = Bing.translate(source)
+        self.textEdit.setText(translation)
 
 
 if __name__ == '__main__':
