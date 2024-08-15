@@ -2,8 +2,8 @@ import urllib.request
 import urllib.parse
 
 
-# Microsoft Bing
 # GitHub repo: https://github.com/neverneverendup/Translator
+# Microsoft Bing
 class Bing(object):
     def __init__(self):
         self.url = "http://api.microsofttranslator.com/v2/ajax.svc/TranslateArray2?"
@@ -20,12 +20,15 @@ class Bing(object):
         url = self.url + data.decode() + "&appId=%223DAEE5B978BA031557E739EE1E2A68CB1FAD5909%22"
         response = urllib.request.urlopen(url)
         str_data = response.read().decode('utf-8')
-        tmp, str_data = str_data.split('"TranslatedText":')
-        translate_data = str_data[1:str_data.find('"', 1)]
+        if str_data.find('"TranslatedText":') != -1:
+            tmp, str_data = str_data.split('"TranslatedText":')
+            translate_data = str_data[1:str_data.find('"', 1)]
+        else:
+            translate_data = '翻译失败'
         return translate_data
 
 
 if __name__ == '__main__':
     content = 'hello'
     bing = Bing()
-    print(bing.translate('en', 'zh', content))
+    print(bing.translate(content, 'en', 'zh'))

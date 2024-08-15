@@ -35,7 +35,6 @@ class Ui_Form(object):
         self.pushButton.setFont(font)
         self.pushButton.setObjectName("pushButton")
         self.textEdit = QtWidgets.QTextEdit(Form)
-        self.textEdit.setEnabled(False)
         self.textEdit.setGeometry(QtCore.QRect(20, 90, 661, 381))
         font = QtGui.QFont()
         font.setFamily("微软雅黑 Light")
