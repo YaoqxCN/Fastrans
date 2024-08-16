@@ -1,5 +1,7 @@
 # Fastrans
 
+当前版本 / Now Version: 0.0.0
+
 ## 简介 / Introduction
 
 Fastrans 是一个美观、简约的翻译工具，支持多种语言。

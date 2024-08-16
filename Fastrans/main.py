@@ -1,7 +1,6 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import qt_material
 import sys
-from langdetect import detect
 
 from ui import Ui_Form
 from translate import Bing
@@ -19,7 +18,8 @@ class Win(QMainWindow, Ui_Form):
         super().__init__()
         self.setupUi(self)
         self.pushButton.clicked.connect(self.translate)
-        self.textEdit.setReadOnly(True)
+        self.pushButton.setShortcut('Return')  # Shortcut key
+        self.textEdit.setReadOnly(True)  # Read-only result
 
     # Translate function
     def translate(self):
