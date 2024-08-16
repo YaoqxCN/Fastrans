@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import qt_material
 import sys
+from langdetect import detect
 
 from ui import Ui_Form
 from translate import Bing
@@ -23,11 +24,16 @@ class Win(QMainWindow, Ui_Form):
     # Translate function
     def translate(self):
         source = self.lineEdit.text()
-        # Check the language of the source text
-        pass
+        # Detect language
+        if source[0] < '\u4e00' or source[0] > '\u9fff':
+            from_lang = 'en'
+            to_lang = 'zh-Hans'
+        else:
+            from_lang = 'zh-Hans'
+            to_lang = 'en'
         # Translate
         translator = Bing()
-        translation = translator.translate(source, "en", "zh")
+        translation = translator.process(source, from_lang, to_lang)
         self.textEdit.setText(translation)
 
 
