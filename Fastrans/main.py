@@ -17,13 +17,16 @@ class Win(QMainWindow, Ui_Form):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-        self.pushButton.clicked.connect(self.translate)
-        self.pushButton.setShortcut('Return')  # Shortcut key
-        self.textEdit.setReadOnly(True)  # Read-only result
+        self.pushButton_2.clicked.connect(self.translate)
+        self.pushButton_2.setShortcut('Return')  # Shortcut key
+        self.comboBox.setStyleSheet("QComboBox{color: white;}")
 
     # Translate function
     def translate(self):
         source = self.lineEdit.text()
+        # Check if source is empty
+        if source == "":
+            return
         # Detect language
         if source[0] < '\u4e00' or source[0] > '\u9fff':
             from_lang = 'en'

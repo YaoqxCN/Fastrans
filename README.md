@@ -1,6 +1,6 @@
 # Fastrans
 
-当前版本 / Now Version: 0.0.0
+当前版本 / Now Version: 0.0.0 （开发中 / Developing）
 
 ## 简介 / Introduction
 
@@ -9,6 +9,10 @@ Fastrans 是一个美观、简约的翻译工具，支持多种语言。
 
 Fastrans is a pretty and simple translation tool, which supports multiple languages.
 Now it only supports Microsoft Bing translation and Chinese-English translation.
+
+## 功能 / Features
+
+- 英汉互译
 
 ## 技术 / Technology
 
@@ -30,7 +34,10 @@ python Fastrans/main.py
 
 **欢迎 PR！**
 
-- ENTER 进行翻译 / Use ENTER to translate
-- 自动检测语言 / Auto detect language
+- ~~ENTER 进行翻译 / Use ENTER to translate~~
+- ~~英汉互译 / English-Chinese translation~~
 - 选择语言 / Select language by users
 - 翻译历史记录 / Translation history
+- 切换翻译引擎 / Switch translation engine
+- 翻译结果复制到剪贴板 / Copy translation results to clipboard
+- 明暗模式转换 / Switch between light and dark mode
