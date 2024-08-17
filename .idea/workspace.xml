@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dc5647d-67c5-4091-8a2c-26529432e6da" name="更改" comment="Add shortcut key to translation button">
+    <list default="true" id="9dc5647d-67c5-4091-8a2c-26529432e6da" name="更改" comment="Update GUI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fastrans/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fastrans/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fastrans/ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/ui.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723799703036</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update GUI">
+      <option name="closed" value="true" />
+      <created>1723820331984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723820331984</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +213,7 @@
     <MESSAGE value="use Microsoft bing to translate" />
     <MESSAGE value="use cn_bing_translation package" />
     <MESSAGE value="Add shortcut key to translation button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add shortcut key to translation button" />
+    <MESSAGE value="Update GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update GUI" />
   </component>
 </project>
