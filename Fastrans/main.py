@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow, QSystemTrayIcon, QMenu, QAction, QMessageBox
 from qt_material import apply_stylesheet
 from qtawesome import font
 import eng_to_ipa as ipa
@@ -82,6 +82,7 @@ class Win(QMainWindow, Ui_Form):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+    app.setQuitOnLastWindowClosed(False)  # 最小化托盘
     apply_stylesheet(app, theme='light_blue.xml', extra=extra, invert_secondary=True)
     win = Win()
     win.show()

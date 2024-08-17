@@ -1,14 +1,18 @@
 # Fastrans
 
-当前版本 / Now Version: 0.0.0 （开发中 / Developing）
+当前版本 / Now Version: 1.0.0
 
 ## 📄 简介 / Introduction
 
-Fastrans 是一个美观、简约的翻译工具，支持多种语言。
+Fastrans 是一个美观简约、方便快速的翻译软件，支持多种语言。
 目前支持微必应、有道、搜狗翻译，以及中英互译，显示音标等。
 
-Fastrans is a pretty and simple translation tool, which supports multiple languages.
+Fastrans is a pretty and fast translation software, which supports most languages.
 Now it supports Bing, Youdao, Sogou translation, English-Chinese translation, phonetic symbol and so on.
+
+## 🔍 预览 / Preview
+
+
 
 ## ✨ 功能 / Features
 
@@ -26,24 +30,10 @@ Now it supports Bing, Youdao, Sogou translation, English-Chinese translation, ph
 - 使用 qt-material 主题美化界面 / Use qt-material to beautify the GUI
 - 使用 eng_to_ipa 显示音标 / Use eng_to_ipa to show phonetic symbol
 
-## 🔍 使用 / Usage
-
-```cmd
-git clone https://github.com/YaoqxCN/Fastrans.git
-cd Fastrans
-pip install -r requirements.txt
-python Fastrans/main.py
-```
-
 ## 📝 待办 / Todo
 
 **欢迎 PR！**
 
-- ~~ENTER 进行翻译 / Use ENTER to translate~~
-- ~~英汉互译 / English-Chinese translation~~
-- ~~切换翻译引擎 / Switch translation engine~~
-- ~~明暗模式转换 / Switch between light and dark mode~~
-- ~~翻译结果复制到剪贴板 / Copy translation results to clipboard~~
 - 翻译历史记录 / Translation history
-- ~~显示音标 / Show phonetic symbols~~
+- 最小化托盘 / Minimize to tray
 - 快捷键弹出窗口 / Pop up window with shortcut keys
