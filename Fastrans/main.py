@@ -1,5 +1,6 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from qt_material import apply_stylesheet
+from qtawesome import icon, font
 import sys
 
 from ui import Ui_Form
@@ -20,10 +21,15 @@ class Win(QMainWindow, Ui_Form):
         self.pushButton_trans.clicked.connect(self.translate)
         self.pushButton_trans.setShortcut('Return')  # Shortcut key
 
+        # Copy button
+        self.pushButton_copy.setFont(font('fa', 16))
+        self.pushButton_copy.setText("")
+        self.pushButton_copy.clicked.connect(self.copy)
+
         # Switch theme
         self.themes = ['dark_cyan.xml', 'light_blue.xml']
         self.theme_name = ['深色', '浅色']
-        self.theme_index = 0
+        self.theme_index = 1
         self.pushButton_theme.clicked.connect(self.switch_theme)
 
     # Translate function
@@ -45,15 +51,25 @@ class Win(QMainWindow, Ui_Form):
         translation = translator.translate()
         self.textEdit_result.setText(translation)
 
+    # Switch theme function
     def switch_theme(self):
         self.theme_index = 1 - self.theme_index
         apply_stylesheet(self, theme=self.themes[self.theme_index], extra=extra, invert_secondary=True)
         self.pushButton_theme.setText(self.theme_name[self.theme_index])
+        if self.theme_index == 0:
+            self.comboBox.setStyleSheet("QComboBox{color: white;}")
+        else:
+            self.comboBox.setStyleSheet("QComboBox{color: black;}")
+
+    # Copy function
+    def copy(self):
+        self.textEdit_result.selectAll()
+        self.textEdit_result.copy()
 
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    apply_stylesheet(app, theme='dark_cyan.xml', extra=extra, invert_secondary=True)
+    apply_stylesheet(app, theme='light_blue.xml', extra=extra, invert_secondary=True)
     win = Win()
     win.show()
     sys.exit(app.exec_())

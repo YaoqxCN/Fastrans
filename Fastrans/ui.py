@@ -59,7 +59,7 @@ class Ui_Form(object):
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.pushButton_theme = QtWidgets.QPushButton(Form)
-        self.pushButton_theme.setGeometry(QtCore.QRect(614, 20, 71, 41))
+        self.pushButton_theme.setGeometry(QtCore.QRect(610, 20, 71, 41))
         font = QtGui.QFont()
         font.setFamily("微软雅黑 Light")
         font.setPointSize(12)
@@ -69,18 +69,26 @@ class Ui_Form(object):
         self.pushButton_theme.setChecked(False)
         self.pushButton_theme.setFlat(False)
         self.pushButton_theme.setObjectName("pushButton_theme")
+        self.pushButton_copy = QtWidgets.QPushButton(Form)
+        self.pushButton_copy.setGeometry(QtCore.QRect(610, 160, 61, 31))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑 Light")
+        font.setPointSize(10)
+        self.pushButton_copy.setFont(font)
+        self.pushButton_copy.setText("")
+        self.pushButton_copy.setObjectName("pushButton_copy")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
+        Form.setWindowTitle(_translate("Form", "Fastrans"))
         self.pushButton_trans.setText(_translate("Form", "翻译"))
         self.comboBox.setItemText(0, _translate("Form", "必应"))
         self.comboBox.setItemText(1, _translate("Form", "有道"))
         self.comboBox.setItemText(2, _translate("Form", "搜狗"))
-        self.pushButton_theme.setText(_translate("Form", "深色"))
+        self.pushButton_theme.setText(_translate("Form", "浅色"))
 
 
 if __name__ == "__main__":

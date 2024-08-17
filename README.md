@@ -41,5 +41,7 @@ python Fastrans/main.py
 - ~~英汉互译 / English-Chinese translation~~
 - ~~切换翻译引擎 / Switch translation engine~~
 - ~~明暗模式转换 / Switch between light and dark mode~~
+- ~~翻译结果复制到剪贴板 / Copy translation results to clipboard~~
 - 翻译历史记录 / Translation history
-- 翻译结果复制到剪贴板 / Copy translation results to clipboard
+- 显示音标 / Show phonetic symbols
+- 快捷键弹出窗口 / Pop up window with shortcut keys

@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Fastrans</string>
   </property>
   <widget class="QLineEdit" name="lineEdit_input">
    <property name="geometry">
@@ -116,7 +116,7 @@
   <widget class="QPushButton" name="pushButton_theme">
    <property name="geometry">
     <rect>
-     <x>614</x>
+     <x>610</x>
      <y>20</y>
      <width>71</width>
      <height>41</height>
@@ -132,7 +132,7 @@
     <enum>Qt::RightToLeft</enum>
    </property>
    <property name="text">
-    <string>深色</string>
+    <string>浅色</string>
    </property>
    <property name="checkable">
     <bool>true</bool>
@@ -142,6 +142,25 @@
    </property>
    <property name="flat">
     <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_copy">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>160</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑 Light</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>
