@@ -58,8 +58,6 @@ class Ui_Form(object):
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
         self.pushButton_theme = QtWidgets.QPushButton(Form)
         self.pushButton_theme.setGeometry(QtCore.QRect(614, 20, 71, 41))
         font = QtGui.QFont()
@@ -80,10 +78,8 @@ class Ui_Form(object):
         Form.setWindowTitle(_translate("Form", "Form"))
         self.pushButton_trans.setText(_translate("Form", "翻译"))
         self.comboBox.setItemText(0, _translate("Form", "必应"))
-        self.comboBox.setItemText(1, _translate("Form", "百度"))
-        self.comboBox.setItemText(2, _translate("Form", "有道"))
-        self.comboBox.setItemText(3, _translate("Form", "搜狗"))
-        self.comboBox.setItemText(4, _translate("Form", "彩云"))
+        self.comboBox.setItemText(1, _translate("Form", "有道"))
+        self.comboBox.setItemText(2, _translate("Form", "搜狗"))
         self.pushButton_theme.setText(_translate("Form", "深色"))
 
 

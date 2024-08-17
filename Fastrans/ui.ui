@@ -104,22 +104,12 @@
    </item>
    <item>
     <property name="text">
-     <string>百度</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
      <string>有道</string>
     </property>
    </item>
    <item>
     <property name="text">
      <string>搜狗</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>彩云</string>
     </property>
    </item>
   </widget>

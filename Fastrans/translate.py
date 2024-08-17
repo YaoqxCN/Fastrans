@@ -7,11 +7,7 @@ class Translator:
     def __init__(self, content, from_lang, to_lang, source):
         self.translators = {
             "必应": "bing",
-            "百度": "baidu",
             "有道": "youdao",
-            "腾讯": "tencent",
-            "阿里": "alibaba",
-            "彩云": "caiyun",
             "搜狗": "sogou",
         }
         self.content = content
@@ -26,4 +22,5 @@ class Translator:
 
 if __name__ == "__main__":
     translation = Translator("你好", "zh", "en", "必应")
+    translation = translation.translate()
     print(translation.translation)
