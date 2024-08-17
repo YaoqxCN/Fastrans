@@ -99,12 +99,27 @@
    </property>
    <item>
     <property name="text">
-     <string>必应翻译</string>
+     <string>必应</string>
     </property>
    </item>
    <item>
     <property name="text">
-     <string>机器翻译</string>
+     <string>百度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>有道</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>搜狗</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>彩云</string>
     </property>
    </item>
   </widget>
