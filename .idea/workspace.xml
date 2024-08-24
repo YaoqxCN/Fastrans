@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dc5647d-67c5-4091-8a2c-26529432e6da" name="更改" comment="更新 README.md">
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+    <list default="true" id="9dc5647d-67c5-4091-8a2c-26529432e6da" name="更改" comment="v0.0.1">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Fastrans.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fastrans.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fastrans/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fastrans/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fastrans/ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/ui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,30 +52,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.bing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.translate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ui.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/3 Harry/Program/项目/Fastrans/Fastrans/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.bing.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.translate.executor": "Run",
+    "Python.ui.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/3 Harry/Program/Project/Fastrans",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\3 Harry\Program\项目\Fastrans\Fastrans\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\3 Harry\Program\Project\Fastrans" />
+      <recent name="D:\3 Harry\Program\Project" />
       <recent name="D:\3 Harry\Program\项目\Fastrans" />
       <recent name="D:\3 Harry\Program\项目\Fastrans\Fastrans" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.main">
     <configuration name="bing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fastrans" />
       <option name="ENV_FILES" value="" />
@@ -161,15 +167,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.bing" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.translate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.translate" />
         <item itemvalue="Python.bing" />
       </list>
@@ -295,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723885400646</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="v0.0.1">
+      <option name="closed" value="true" />
+      <created>1723898466874</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723898466874</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +336,7 @@
     <MESSAGE value="新增复制按钮；&#10;改进明暗切换部分问题；" />
     <MESSAGE value="新增单词音标" />
     <MESSAGE value="更新 README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 README.md" />
+    <MESSAGE value="v0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.0.1" />
   </component>
 </project>

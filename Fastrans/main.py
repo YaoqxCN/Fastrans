@@ -1,4 +1,5 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QSystemTrayIcon, QMenu, QAction, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5 import QtCore, Qt
 from qt_material import apply_stylesheet
 from qtawesome import font
 import eng_to_ipa as ipa
@@ -11,7 +12,7 @@ from translate import Translator
 # Extra theme setting
 extra = {
     'font_family': '微软雅黑',
-    'font_size': '10'
+    'font_size': '12'
 }
 
 
@@ -34,6 +35,10 @@ class Win(QMainWindow, Ui_Form):
         self.theme_name = ['深色', '浅色']
         self.theme_index = 1
         self.pushButton_theme.clicked.connect(self.switch_theme)
+
+        # Topmost
+        self.is_topmost = False
+        self.pushButton_topmost.clicked.connect(self.topmost)
 
     # Translate function
     def translate(self):
@@ -79,10 +84,19 @@ class Win(QMainWindow, Ui_Form):
         else:
             self.comboBox.setStyleSheet("QComboBox{color: black;}")
 
+    # Topmost
+    def topmost(self):
+        if self.is_topmost:
+            self.setWindowFlags(QtCore.Qt.Widget)
+            self.show()
+        else:
+            self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
+            self.show()
+        self.is_topmost = not self.is_topmost
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setQuitOnLastWindowClosed(False)  # 最小化托盘
     apply_stylesheet(app, theme='light_blue.xml', extra=extra, invert_secondary=True)
     win = Win()
     win.show()
