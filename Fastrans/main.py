@@ -1,10 +1,11 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from PyQt5 import QtCore, Qt
+from PyQt5 import QtCore
 from qt_material import apply_stylesheet
 from qtawesome import font
 import eng_to_ipa as ipa
 import pyperclip
 import sys
+import ctypes
 
 from ui import Ui_Form
 from translate import Translator
@@ -98,6 +99,7 @@ class Win(QMainWindow, Ui_Form):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     apply_stylesheet(app, theme='light_blue.xml', extra=extra, invert_secondary=True)
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("myappid")
     win = Win()
     win.show()
     sys.exit(app.exec_())

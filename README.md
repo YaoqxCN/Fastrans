@@ -21,6 +21,7 @@ Now it supports Bing, Youdao, Sogou translation, English-Chinese translation, ph
 - 明暗主题切换 / Switch between light and dark mode
 - 可选不同翻译平台（支持必应、有道、搜狗）/ Optional different translation platforms (support Bing, Youdao, Sogou)
 - 可显示音标 / Available to show phonetic symbol
+- 可置顶窗口 / Available to pin the window
 
 ## ✒ 技术 / Technology
 
@@ -30,7 +31,7 @@ Now it supports Bing, Youdao, Sogou translation, English-Chinese translation, ph
 - 使用 qt-material 主题美化界面 / Use qt-material to beautify the GUI
 - 使用 eng_to_ipa 显示音标 / Use eng_to_ipa to show phonetic symbol
 
-## 📝 待办 / Todo
+## 🎯 待办 / Todo
 
 **欢迎 PR！**
 
