@@ -1,18 +1,27 @@
 # Fastrans
 
-当前版本 / Now Version: 1.0.0
-
-## 📄 简介 / Introduction
-
+<p align="center">
+<br>
+<img src="Fastrans/src/icon.png" alt="Fastrans" width="100" height="100">
+<br><br>
 Fastrans 是一个美观简约、方便快速的翻译软件，支持多种语言。
-目前支持微必应、有道、搜狗翻译，以及中英互译，显示音标等。
-
+<br>
 Fastrans is a pretty and fast translation software, which supports most languages.
-Now it supports Bing, Youdao, Sogou translation, English-Chinese translation, phonetic symbol and so on.
+<br>
+<img alt="GitHub License" src="https://img.shields.io/github/license/YaoqxCN/Fastrans">
+<img alt="GitHub Release" src="https://img.shields.io/github/v/release/YaoqxCN/Fastrans">
+<img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/YaoqxCN/Fastrans">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/YaoqxCN/Fastrans">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/YaoqxCN/Fastrans">
+<br>
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/YaoqxCN/Fastrans">
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/YaoqxCN/Fastrans">
+</p>
+
 
 ## 🔍 预览 / Preview
 
-
+![preview](view.png)
 
 ## ✨ 功能 / Features
 
