@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dc5647d-67c5-4091-8a2c-26529432e6da" name="更改" comment="update README.md">
+      <change afterPath="$PROJECT_DIR$/view1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fastrans/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fastrans/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +71,14 @@
       <recent name="D:\3 Harry\Program\项目\Fastrans\Fastrans\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\3 Harry\Program\项目\Fastrans" />
       <recent name="D:\3 Harry\Program\项目\Fastrans\Fastrans\src" />
       <recent name="D:\3 Harry\Program\Project\Fastrans" />
       <recent name="D:\3 Harry\Program\Project" />
-      <recent name="D:\3 Harry\Program\项目\Fastrans" />
       <recent name="D:\3 Harry\Program\项目\Fastrans\Fastrans" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="bing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fastrans" />
       <option name="ENV_FILES" value="" />
@@ -335,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724565226891</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update README.md">
+      <option name="closed" value="true" />
+      <created>1724576762575</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724576762575</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
