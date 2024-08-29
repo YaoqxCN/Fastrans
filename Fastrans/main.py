@@ -11,7 +11,7 @@ from translate import Translator
 
 
 # Main window class
-class Win(QMainWindow, Ui):
+class Win(Ui):
     def __init__(self):
         super().__init__()
         self.btn_trans.clicked.connect(self.translate)
