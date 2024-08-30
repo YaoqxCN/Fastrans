@@ -1,7 +1,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QWidget
-from qfluentwidgets import (PushButton, ComboBox, LineEdit, TextEdit, ToggleToolButton, ToolButton, SwitchButton,
-                            FluentIcon as FIF)
+from PyQt5.QtWidgets import QWidget, QSystemTrayIcon
+from qfluentwidgets import (PushButton, ComboBox, LineEdit, TextEdit, ToggleToolButton, ToolButton, RoundMenu, Action,
+                            SystemTrayMenu, FluentIcon as FIF)
 import sys
 
 
@@ -70,6 +70,19 @@ class Ui(QWidget):
         self.layout.addWidget(self.txt_result)
         self.layout.setSpacing(10)
         self.setLayout(self.layout)
+
+        # 系统托盘图标
+        self.tray_icon = QSystemTrayIcon(self)
+        self.tray_icon.setIcon(QtGui.QIcon(QtGui.QPixmap("src/icon.ico")))
+        self.tray_icon.setVisible(True)
+
+        # 托盘菜单
+        self.tray_menu = SystemTrayMenu(self)
+        self.tray_menu.addActions([
+            Action("打开", triggered=self.show),
+            Action("退出", triggered=sys.exit),
+        ])
+        self.tray_icon.setContextMenu(self.tray_menu)
 
 
 if __name__ == "__main__":
