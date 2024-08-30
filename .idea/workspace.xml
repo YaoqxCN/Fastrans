@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dc5647d-67c5-4091-8a2c-26529432e6da" name="更改" comment="重新布局 UI">
+    <list default="true" id="9dc5647d-67c5-4091-8a2c-26529432e6da" name="更改" comment="最小化系统托盘、快捷键打开窗口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fastrans/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fastrans/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fastrans/ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724924118196</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="最小化系统托盘、快捷键打开窗口">
+      <option name="closed" value="true" />
+      <created>1725024141256</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1725024141256</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,6 +414,7 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="使用 pyqt-fluent-widgets UI库重新构建 UI&#10;简化 UI 代码，删除冗余代码" />
     <MESSAGE value="重新布局 UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新布局 UI" />
+    <MESSAGE value="最小化系统托盘、快捷键打开窗口" />
+    <option name="LAST_COMMIT_MESSAGE" value="最小化系统托盘、快捷键打开窗口" />
   </component>
 </project>
