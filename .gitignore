@@ -1,3 +1,16 @@
-.idea
+# 忽略 JetBrains IDE 生成的配置文件
+.idea/
 
-.venv\
+# 忽略 Python 虚拟环境
+.venv/
+
+# 忽略常见的临时文件和编译输出
+*.pyc
+__pycache__/
+*.log
+*.tmp
+*.swp
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db

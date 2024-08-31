@@ -13,7 +13,7 @@ class Ui(QWidget):
 
         font = QtGui.QFont("微软雅黑", 12)
 
-        icon = QtGui.QIcon(QtGui.QPixmap("src/icon.ico"))
+        icon = QtGui.QIcon(QtGui.QPixmap("icon.ico"))
         self.setWindowIcon(icon)
 
         self.txt_input = LineEdit(self)
@@ -73,7 +73,7 @@ class Ui(QWidget):
 
         # 系统托盘图标
         self.tray_icon = QSystemTrayIcon(self)
-        self.tray_icon.setIcon(QtGui.QIcon(QtGui.QPixmap("src/icon.ico")))
+        self.tray_icon.setIcon(QtGui.QIcon(QtGui.QPixmap("icon.ico")))
         self.tray_icon.setVisible(True)
 
         # 托盘菜单
