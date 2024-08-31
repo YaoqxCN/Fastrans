@@ -1,8 +1,10 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QWidget, QSystemTrayIcon
-from qfluentwidgets import (PushButton, ComboBox, LineEdit, TextEdit, ToggleToolButton, ToolButton, RoundMenu, Action,
+from qfluentwidgets import (PushButton, ComboBox, LineEdit, TextEdit, ToggleToolButton, ToolButton, Action,
                             SystemTrayMenu, FluentIcon as FIF)
 import sys
+
+import icon
 
 
 class Ui(QWidget):
@@ -13,8 +15,7 @@ class Ui(QWidget):
 
         font = QtGui.QFont("微软雅黑", 12)
 
-        icon = QtGui.QIcon(QtGui.QPixmap("icon.ico"))
-        self.setWindowIcon(icon)
+        self.setWindowIcon(QtGui.QIcon(":/icon.ico"))
 
         self.txt_input = LineEdit(self)
         self.txt_input.setFixedHeight(40)
@@ -73,7 +74,7 @@ class Ui(QWidget):
 
         # 系统托盘图标
         self.tray_icon = QSystemTrayIcon(self)
-        self.tray_icon.setIcon(QtGui.QIcon(QtGui.QPixmap("icon.ico")))
+        self.tray_icon.setIcon(QtGui.QIcon(":/icon.ico"))
         self.tray_icon.setVisible(True)
 
         # 托盘菜单

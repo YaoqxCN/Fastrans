@@ -2,10 +2,9 @@
 
 <p align="center">
 <br>
-<img src="Fastrans/src/icon.png" alt="Fastrans" width="100" height="100">
+<img src="Fastrans/icon.png" alt="Fastrans" width="100" height="100">
 <br><br>
 Fastrans 是一个美观简约、方便快速的翻译软件，支持多平台。
-<br>
 <br><br>
 <img alt="GitHub License" src="https://img.shields.io/github/license/YaoqxCN/Fastrans">
 <img alt="GitHub Release" src="https://img.shields.io/github/v/release/YaoqxCN/Fastrans">
