@@ -9,7 +9,7 @@ Fastrans 是一个美观简约、方便快速的翻译软件，支持多平台�
 <img alt="GitHub License" src="https://img.shields.io/github/license/YaoqxCN/Fastrans">
 <img alt="GitHub Release" src="https://img.shields.io/github/v/release/YaoqxCN/Fastrans">
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/YaoqxCN/Fastrans">
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/YaoqxCN/Fastrans">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/YaoqxCN/Fastrans">
 </p>
 
 
